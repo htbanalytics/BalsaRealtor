@@ -1,0 +1,242 @@
+/* body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+} */
+
+.nav-link {
+    font-family: 'Staatliches';
+    font-size: 20px;
+    
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 200px;
+  }
+
+  blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 5em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:5em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+
+.card {
+    height: 300px;
+    box-shadow: 5px 7px 7px #23a6d5;
+}
+
+  #footer {
+      height: 85px;
+      padding-top: 20px;
+  }
+
+  #about {
+      height: auto;
+  }
+
+  #carousel {
+      padding-top: 1px;
+      padding-bottom: 20px;
+  }
+
+  #search {
+      background-color:rgba(160, 206, 231, 1);
+      height: 100px;
+      box-shadow: 3px 0px 3px 0px rgba(160, 206, 231, 1);
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+  }
+
+  #searching {
+    width: 400px;
+    background-color: pink;
+  }
+
+
+  #about {
+    background: rgba(160, 206, 231, 0.5);
+    border-radius: 8%;
+  }
+  
+  /* Add a background color and some padding around the form */
+  #contactCard {
+    border-radius: 5px;
+    background-color: rgba(160, 206, 231, 0.5);
+    padding: 20px;
+  }
+
+  #statistics {
+      background: rgba(160, 206, 231, 1);
+      height: 400px;
+      padding:10px;
+  }
+
+  .ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:50px;
+  }
+
+  .counter {
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+  }
+
+  @media(max-width: 580px) {
+    body {
+      flex-direction: column;
+    }
+  }
+
+  #minPrice {
+    height: 30px; 
+    width: 80px;
+  }
+
+
+  #maxPrice {
+    vertical-align: middle;
+    height: 30px; 
+    width: 80px;
+  }
+
+  /* .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+*/
+
+  /* Alternate Homepage */
+
+  #home-top {
+    background-image: url("Images/slide2.jpg");
+  }
